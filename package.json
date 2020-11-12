@@ -1,0 +1,23 @@
+{
+  "name": "chitchat",
+  "description": "Realtime chat with rooms",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "dependencies": {
+    "date-fns": "^2.16.1",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "socket.io": "^3.0.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.1",
+    "@babel/core": "^7.12.3",
+    "@babel/preset-env": "^7.12.1",
+    "nodemon": "^2.0.6"
+  }
+}
